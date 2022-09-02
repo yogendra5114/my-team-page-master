@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    }
+body{
+
+    height: 50%;
+}
+.flex-container{
+     display: flex;
+    flex-wrap: wrap;
+    align-items:center;
+    justify-content:flex-start;
+    
+}
+.flex-item{
+width: 200px;
+height: 300px;
+    margin: 40px;
+}
+/* .flex-item-down{
+    position: relative;
+    top:20px;
+} */
+div.flex-item:nth-child(3n-1) {
+    position: relative;
+    top:20px;
+    background-color: blue;
+  }
+.flex-item-header{
+    width: 300px;
+    margin: 40px 50px 10px 10px;
+}
+.flex-item-header >h1{
+    font-family: 'PT Serif';
+}
+.flex-item-header >h2 p{
+    font-family: 'Poppins';
+    text-transform: uppercase;
+
+}
+img{
+    width: 200px;
+    height: 300px;
+    background-color: green;
+    /* padding: 10px 10px 10px 10px; */
+   
+}
+.profile{
+    width: 220px;
+    height: 300px;
+}
+
+
+p.vertical-text{
+    /* writing-mode: vertical-rl;
+  text-orientation: sideways-right;*/
+  position:relative;
+  padding: 0;
+  left: 100px;
+  bottom: 200px; 
+  font-family: 'PT Serif';
+  font-weight: 400;
+  text-transform: uppercase;
+  transform: rotate(90deg);
+  /* display: inline; */
+}
+.names >p{
+    position: relative;
+    bottom:2px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    /* display: inline; */
+}
+
+
