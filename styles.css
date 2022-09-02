@@ -72,5 +72,11 @@ p.vertical-text{
     font-weight: 600;
     /* display: inline; */
 }
+.footer{
+    font-family: 'Montserrat';
+    color: #A9A9A9;
+    position: relative;
+    text-align: center;
+}
 
 
